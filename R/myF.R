@@ -1,6 +1,6 @@
 #' Test Function
 #'
-#' Description
+#' Description TESTTTTTTT
 #'
 #' @param x a vector
 #'
