@@ -10,7 +10,7 @@
 get20182019Season <- function()
 {
   #Looping through each game of the season
-  for(i in 1:1082)
+  for(i in 1:1271)
   {
     #Printing an update on the function's progress every 100 games
     if(i%%100 == 0)
@@ -19,17 +19,17 @@ get20182019Season <- function()
     }
 
     #getting the temporary gameData
-    tempData <- assembleGame(sprintf("http://www.nhl.com/scores/htmlreports/20182019/PL0%s.HTM", 20000 + i))
+    tempData <- assembleGame1(sprintf("http://www.nhl.com/scores/htmlreports/20182019/PL0%s.HTM", 20000 + i))
 
     if(i == 1)
     {
-      `19-20` <- tempData
+      `18-19` <- tempData
     }
     else
     {
-      `19-20` <- rbind(`19-20`, tempData)
+      `18-19` <- rbind(`18-19`, tempData)
     }
   }
 
-  return(`19-20`)
+  return(`18-19`)
 }
