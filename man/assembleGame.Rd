@@ -10,7 +10,7 @@ assembleGame(url)
 \item{url}{a url of the following form: http://www.nhl.com/scores/htmlreports/year/PL02gamenumber.HTM}
 }
 \value{
-a data frame containing all of the play-by-play from a specific NHL game
+a data frame containing all of the play-by-play data from a specific NHL game
 }
 \description{
 A function to scrape all of the event level data from a www.nhl.com/scores/htmlreports website.

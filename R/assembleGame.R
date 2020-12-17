@@ -4,7 +4,7 @@
 #'
 #' @param url a url of the following form: http://www.nhl.com/scores/htmlreports/year/PL02gamenumber.HTM
 #'
-#' @return a data frame containing all of the play-by-play from a specific NHL game
+#' @return a data frame containing all of the play-by-play data from a specific NHL game
 #' @export
 #'
 #' @examples
