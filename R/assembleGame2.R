@@ -1,6 +1,8 @@
-#' Assemble Play-by-Play Data Function //2019-2020 NHL SEASON ONLY//
+#' Assemble Play-by-Play Data Function
 #'
+#'//2019-2020 NHL SEASON ONLY//
 #' A function to scrape all of the event level data from a www.nhl.com/scores/htmlreports website.
+#' Use assembleGame1 to scrape the any other NHL seasons.
 #'
 #' @param url a url of the following form: http://www.nhl.com/scores/htmlreports/year/PL02gamenumber.HTM
 #'

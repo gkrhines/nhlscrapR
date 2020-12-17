@@ -1,6 +1,8 @@
-#' Assemble Play-by-Play Data Function //NOT COMPATIBLE WITH 2019-2020 NHL SEASON//
+#' Assemble Play-by-Play Data Function
 #'
+#'//NOT COMPATIBLE WITH 2019-2020 NHL SEASON//
 #' A function to scrape all of the event level data from a www.nhl.com/scores/htmlreports website.
+#' Use assembleGame2 to scrape the 2019-2020 NHL season.
 #'
 #' @param url a url of the following form: http://www.nhl.com/scores/htmlreports/year/PL02gamenumber.HTM
 #'

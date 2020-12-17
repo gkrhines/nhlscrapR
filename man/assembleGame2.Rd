@@ -2,7 +2,7 @@
 % Please edit documentation in R/assembleGame2.R
 \name{assembleGame2}
 \alias{assembleGame2}
-\title{Assemble Play-by-Play Data Function //2019-2020 NHL SEASON ONLY//}
+\title{Assemble Play-by-Play Data Function}
 \usage{
 assembleGame2(url)
 }
@@ -13,7 +13,9 @@ assembleGame2(url)
 a data frame containing all of the play-by-play data from a specific NHL game
 }
 \description{
+//2019-2020 NHL SEASON ONLY//
 A function to scrape all of the event level data from a www.nhl.com/scores/htmlreports website.
+Use assembleGame1 to scrape the any other NHL seasons.
 }
 \examples{
 assembleGame("http://www.nhl.com/scores/htmlreports/20192020/PL020001.HTM")
