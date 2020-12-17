@@ -13,5 +13,5 @@ a data frame containing all of the play-by-play data from the 2018-2019 NHL seas
 Returns a dataframe containing the period, teams, strength, time, active skaters and decription of each event from the 2018-2019 NHL season.
 }
 \examples{
-get20182019Season()
+get20182019pbp()
 }

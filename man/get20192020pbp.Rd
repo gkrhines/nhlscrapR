@@ -13,5 +13,5 @@ a data frame containing all of the play-by-play data from the 2019-2020 NHL seas
 Returns a dataframe containing the period, teams, strength, time, active skaters and decription of each event from the 2019-2020 NHL season.
 }
 \examples{
-get20192020Season()
+get20192020pbp()
 }

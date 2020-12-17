@@ -6,7 +6,7 @@
 #' @export
 #'
 #' @examples
-#' get20192020Season()
+#' get20192020pbp()
 get20192020pbp <- function()
 {
   #Looping through each game of the season
