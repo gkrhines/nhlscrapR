@@ -1,4 +1,4 @@
-#' Assemble Play-by-Play Data Function //2018-2019 NHL SEASON ONLY//
+#' Assemble Play-by-Play Data Function //2019-2020 NHL SEASON ONLY//
 #'
 #' A function to scrape all of the event level data from a www.nhl.com/scores/htmlreports website.
 #'
