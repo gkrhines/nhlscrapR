@@ -18,5 +18,5 @@ A function to scrape all of the event level data from a www.nhl.com/scores/htmlr
 Use assembleGame2 to scrape the 2019-2020 NHL season.
 }
 \examples{
-assembleGame("http://www.nhl.com/scores/htmlreports/20192020/PL020001.HTM")
+assembleGame("http://www.nhl.com/scores/htmlreports/20162017/PL020001.HTM")
 }

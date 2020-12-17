@@ -10,7 +10,7 @@
 #' @export
 #'
 #' @examples
-#' assembleGame("http://www.nhl.com/scores/htmlreports/20192020/PL020001.HTM")
+#' assembleGame("http://www.nhl.com/scores/htmlreports/20162017/PL020001.HTM")
 assembleGame1 <- function(url)
 {
   #Loading the necessary packages to perform scraping
