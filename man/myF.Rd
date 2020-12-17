@@ -13,7 +13,7 @@ myF(x)
 a vector of squared components
 }
 \description{
-Description
+TESTTTTTTT
 }
 \examples{
 x <- 1:30; myF(x)
