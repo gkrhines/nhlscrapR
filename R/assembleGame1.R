@@ -9,7 +9,7 @@
 #'
 #' @examples
 #' assembleGame("http://www.nhl.com/scores/htmlreports/20192020/PL020001.HTM")
-assembleGame <- function(url)
+assembleGame1 <- function(url)
 {
   #Loading the necessary packages to perform scraping
   library(RCurl)
