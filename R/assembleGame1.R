@@ -76,5 +76,9 @@ assembleGame1 <- function(url)
   output <- data.frame("Period" = period, "Home" = homes, "Away" = aways,  "Str" = strength, "Time:ElapsedTime" = timeElapsedTime,
                        "Event" = event,"Away Skaters" = players1, "Home Skaters" = players2, "Description" = description)
 
+  #Cleaning up the Away.Skaters and Home.Skaters values
+  output$Home.Skaters <- gsub("[\r\n]", "", output$Home.Skaters)
+  output$Away.Skaters <- gsub("[\r\n]", "", output$Away.Skaters)
+
   return(output)
 }

@@ -2,7 +2,7 @@
 % Please edit documentation in R/assembleGame1.R
 \name{assembleGame1}
 \alias{assembleGame1}
-\title{Assemble Play-by-Play Data Function}
+\title{Assemble Play-by-Play Data Function //NOT COMPATIBLE WITH 2019-2020 NHL SEASON//}
 \usage{
 assembleGame1(url)
 }
