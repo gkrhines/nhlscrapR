@@ -1,6 +1,7 @@
 Package: nhlscrapR
 Type: Package
-Title: Unique NHL Play-by-Play Scraper
+Title:  www.nhl.com/scores/htmlreports website
+NHL Play-by-Play Scraper
 Version: 0.1.0
 Author: Grant Rhines
 Maintainer: Grant Rhines <grantrhines17@outlook.com>
